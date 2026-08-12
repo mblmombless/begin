@@ -3,7 +3,7 @@ const text = document.getElementById("text");
 
 button.addEventListener("click", function () {
     text.textContent = "Qosjowjw";
-    text.style.color = "blue";
+    text.style.color = "violet";
 });
 
 console.log("html tolong diisi😇");
