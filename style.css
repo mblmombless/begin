@@ -1,1 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+    font-family: Arial, sans-serif;
+    color: white;
+
+    /* Background Black + Violet */
+    background:
+        radial-gradient(circle at top left, #7c3aed 0%, transparent 35%),
+        radial-gradient(circle at bottom right, #4c1d95 0%, transparent 35%),
+        linear-gradient(135deg, #000000 0%, #09000f 50%, #1a0633 100%);
+}
+
+/* Input */
+#inputData {
+    width: 300px;
+    padding: 13px 16px;
+
+    border: 2px solid #6d28d9;
+    border-radius: 10px;
+    outline: none;
+
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+
+    font-size: 16px;
+
+    transition: 0.3s;
+}
+
+#inputData::placeholder {
+    color: #a78bfa;
+}
+
+#inputData:focus {
+    border-color: #a855f7;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+}
+
+/* Button */
+#btnKirim {
+    padding: 12px 28px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: linear-gradient(135deg, #7c3aed, #a855f7);
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 20px rgba(124, 58, 237, 0.4);
+
+    transition: 0.3s;
+}
+
+#btnKirim:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(168, 85, 247, 0.6);
+}
+
+#btnKirim:active {
+    transform: translateY(0);
+}
