@@ -1,4 +1,4 @@
-# ~development proces~ be patient
+# ~development proces___ be patient
 
 this program will be the tools based telegram bot that can help you to manage and monitoring the in and out your product, 
 the technologies
