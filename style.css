@@ -76,3 +76,9 @@ body {
 #btnKirim:active {
     transform: translateY(0);
 }
+
+#btnbrd {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+}
