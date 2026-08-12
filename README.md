@@ -1,6 +1,6 @@
 # ~development proces___ be patient
 
-this program will be the tools based telegram bot that can help you to manage and monitoring the in and out your product
+this program will be the tools based telegram bot that can help you to manage and monitoring the in and out your product 
 
 
 the technologies
@@ -17,4 +17,4 @@ info log in and out product
 
 stock under threshold warn
 
-#
+#tapi boong
